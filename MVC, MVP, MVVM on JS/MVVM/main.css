@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-text {
+    color: #1dc3e0;
+    align-items: center;
+    font-family: 'Delicious Handrawn', cursive;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 100px;
+}
+
+.input-text {
+    margin-left: 30px;
+    padding: 2px;
+    width: 300px;
+}
+
+.task-text {
+    color: #1dc3e0;
+    font-family: 'Delicious Handrawn', cursive;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 25px;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+.add-button {
+    font-family: 'Delicious Handrawn', cursive;
+    font-weight: normal;
+    font-style: normal;
+    background-color:#1dc3e0;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 2px;
+}
+
+.delete-button {
+    font-family: 'Delicious Handrawn', cursive;
+    font-weight: normal;
+    font-style: normal;
+    background-color: #1dc3e0;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 2px;
+}

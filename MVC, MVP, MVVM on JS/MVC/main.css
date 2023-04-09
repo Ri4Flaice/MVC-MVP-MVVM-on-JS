@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    height: 300px;
+    width: 600px;
+}
+
+.Main_text {
+    color: orange;
+    align-items: center;
+    font-family: 'Delicious Handrawn', cursive;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 100px;
+}
+
+.Main_input {
+    margin-left: 30px;
+    padding: 2px;
+    width: 300px;
+}
+
+.Main_input:focus {
+    color: #f58e07;
+}
+
+.Main_task {
+    color: #f58e07;
+    font-family: 'Delicious Handrawn', cursive;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 25px;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+.Main_button {
+    font-family: 'Delicious Handrawn', cursive;
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    background-color: #f77f07;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 2px;
+}

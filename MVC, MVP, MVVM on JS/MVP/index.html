@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <title>MVP</title>
+  </head>
+  <body>
+    <h1 class="main-text">Task List</h1>
+    <div>
+      <input type="text" id="new-task-input" class="input-text">
+      <button id="add-task-button" class="add-task-button">Add Task</button>
+    </div>
+    <ul id="task-list" class="task-text">
+    </ul>
+
+    <template id="task-template">
+      <li>
+        <span class="task-name"></span>
+        <button class="delete-button">Delete</button>
+      </li>
+    </template>
+
+    <script src="test.js"></script>
+  </body>
+</html>

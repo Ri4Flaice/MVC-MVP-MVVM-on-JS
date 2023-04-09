@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>MVVM</title>
+</head>
+<body>
+    <div id="todo-list">
+        <h1 class="main-text">Task list</h1>
+        <input type="text" class="input-text" data-bind="value: newTask, valueUpdate: 'afterkeydown'">
+        <button data-bind="click: addTask" class="add-button">Add Task</button>
+        <ul data-bind="foreach: tasks" class="task-text">
+          <li>
+            <span data-bind="text: $data"></span>
+            <button data-bind="click: $parent.removeTask" class="delete-button">Delete</button>
+          </li>
+        </ul>
+      </div>
+      <script src="script.js"></script>
+</body>
+</html>
